@@ -1232,7 +1232,6 @@ DEFINE_DIALOG(DIALOG_098, 1, 2, 95, 200, _("\
 Come on in here...\n\
 ...heh, heh, heh..."))
 
-// unused
 DEFINE_DIALOG(DIALOG_099, 1, 5, 95, 200, _("\
 Eh he he...\n\
 You're mine, now, hee hee!\n\

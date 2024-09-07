@@ -32,7 +32,7 @@
 #define SET_HIGH_S16_OF_64(var, x) ((var) = ((var) & 0xFFFF) | ((x) << 16))
 #else
 #define GET_HIGH_U16_OF_64(var) (((u16 *)&(var))[0])
-#define GET_HIGH_S16_OF_32(var) (((s16 *)&(var))[0])
+#define GET_HIGH_S16_OF_64(var) (((s16 *)&(var))[0])
 #define GET_LOW_U16_OF_64(var) (((u16 *)&(var))[1])
 #define GET_LOW_S16_OF_64(var) (((s16 *)&(var))[1])
 #define SET_HIGH_U16_OF_64(var, x) ((((u16 *)&(var))[0]) = (x))
